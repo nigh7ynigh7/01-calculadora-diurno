@@ -27,4 +27,13 @@ public class MenorTest {
         
         assertEquals(esperado,retornado,0);
     }
+    
+    @Test
+    public void deveriaRetornar5QuandoPassa10e5()
+    {
+        double esperado = 5;
+        double retornado = menor.calcular(10, 5);
+        
+        assertEquals(esperado,retornado,0);
+    }
 }
