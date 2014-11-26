@@ -15,10 +15,17 @@ public class AdicaoIncrementadaTest {
         addInc = new AdicaoIncrementada();
     }
     @Test
-    public void deveriaRetornat6QuandoInformar3e2() {
+    public void deveriaRetornar6QuandoInformar3e2() {
         double esperado = 6;
         double retornado = addInc.calcular(3, 2);
         
+        assertEquals(esperado, retornado,0);
+    }
+    @Test
+    public void deveriaRetornarMenos2QuandoInformaMenos2eMenos1()
+    {
+        double esperado = -2;
+        double retornado = addInc.calcular(-2, -1);
         assertEquals(esperado, retornado,0);
     }
 }
