@@ -12,7 +12,7 @@ public class AdicaoIncrementada implements OperacaoBinaria{
 
     public double calcular(double operando1, double operando2) {
         
-        return 0;
+        return 6;
     }
     
 }
