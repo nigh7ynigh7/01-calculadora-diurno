@@ -2,6 +2,7 @@ package io.github.danielfs.calculadora.operacao.binaria;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Before;
 
 public class AdicaoTest {
     private Adicao adicao;
